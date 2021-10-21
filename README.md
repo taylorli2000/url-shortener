@@ -13,9 +13,9 @@ npm install
 
 You must set up the .env file:
 
-URLSHORTENER_DB_URI=your-database-connection-string
-URLSHORTENER_DB_NS=your-database-name
-URLS_COLLECTION_NS=your-collection-name
+URLSHORTENER_DB_URI=your-database-connection-string<br/>
+URLSHORTENER_DB_NS=your-database-name<br/>
+URLS_COLLECTION_NS=your-collection-name<br/>
 
 In the client folder, install dependencies:
 

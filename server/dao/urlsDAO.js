@@ -8,7 +8,9 @@ export default class urlsDAO {
       return;
     }
     try {
-      urls = await conn.db(process.env.URLSHORTENER_DB_NS).collection('urls');
+      urls = await conn
+        .db(process.env.URLSHORTENER_DB_NS)
+        .collection(process.env.URLS_COLLECTION_NS);
     } catch (err) {
       console.error(`Unable to establish collection handles in urlsDAO: ${e}`);
     }
